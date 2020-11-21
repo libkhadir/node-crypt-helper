@@ -1,0 +1,27 @@
+{
+  "name": "crypt-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkhadir/node-crypt-helper.git"
+  },
+  "author": "tkhadir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkhadir/node-crypt-helper/issues"
+  },
+  "homepage": "https://github.com/tkhadir/node-crypt-helper#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "stream": "0.0.2",
+    "zlib": "^1.0.5"
+  }
+}
