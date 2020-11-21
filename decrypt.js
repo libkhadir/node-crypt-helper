@@ -20,7 +20,7 @@ function decrypt({ file, password }) {
     const readStream = fs.createReadStream(file, { start: 16 });
     const decipher = crypto.createDecipheriv('aes256', cipherKey, initVect);
     const unzip = zlib.createUnzip();
-    const writeStream = fs.createWriteStream(file + '.unenc');
+    const writeStream = fs.createWriteStream(file.replace('.enc', ''));
 
     readStream
       .pipe(decipher)
