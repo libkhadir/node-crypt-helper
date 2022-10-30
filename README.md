@@ -1,4 +1,4 @@
-# node-crypt-helper
+# node-crypt-helper [![Build](https://github.com/libkhadir/node-crypt-helper/actions/workflows/node.js.yml/badge.svg)](https://github.com/libkhadir/node-crypt-helper/actions/workflows/node.js.yml)
 
 ## how to use this tool ?
 
